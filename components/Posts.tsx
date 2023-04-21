@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, TextInput, FlatList } from 'react-native';
+import { View, TextInput, FlatList } from 'react-native';
+import { Text } from './Themed';
 
 interface Post {
     userId: number;
